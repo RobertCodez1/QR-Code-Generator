@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="MainLogin">
+        <center>
+            <h4>Create QR Code</h4>
+
+
+            <input type="url" id="Link" placeholder="Enter your text"> <br>
+
+            <button type="submit" id="SubmitButton" onclick="Clicked()"> Generate QR Code </button><br> <br>
+
+
+            <div id="qrcode"></div>
+        </center>
+    </div>
+
+    <div class="MobileLogin">
+        <center>
+            <h4>Create QR Code</h4>
+
+
+            <input type="url" id="LinkMobile" placeholder="Enter your text"> <br>
+
+            <button type="submit" id="SubmitButton" onclick="Clicked()"> Generate QR Code </button><br> <br>
+
+
+            <div id="qrcodeMobile"></div>
+        </center>
+    </div>
+    <script src="qrcode.min.js"></script>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
